@@ -1105,6 +1105,39 @@ npm run dev</pre>
 
 <span class="kw">export default</span> <span class="cmp">MeuPerfil</span></pre>
             </div>
+            <div class="warning" style="margin-top:14px">
+              <span class="warning-icon">📌</span>
+              <div class="warning-content">
+                <strong>Não esqueça!</strong> Pra ver o componente na tela, importe e use no <code>App.jsx</code> (ou no componente pai que você está rodando):
+                <div class="code-block" style="margin-top:10px">
+                  <div class="code-header">
+                    <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="filename">src/App.jsx</span>
+                    <span class="lang-badge jsx">JSX</span>
+                  </div>
+<pre><span class="kw">import</span> <span class="cmp">MeuPerfil</span> <span class="kw">from</span> <span class="st">'./components/MeuPerfil'</span>
+
+<span class="kw">const</span> <span class="cmp">App</span> <span class="op">=</span> () <span class="op">=&gt;</span> {
+  <span class="kw">return</span> (
+    <span class="op">&lt;</span><span class="cmp">MeuPerfil</span> <span class="op">/&gt;</span>
+  )
+}
+
+<span class="kw">export default</span> <span class="cmp">App</span></pre>
+                </div>
+              </div>
+            </div>
+            <p style="color:var(--text-dim);margin-top:14px"><strong>Resultado esperado na tela:</strong></p>
+            <div class="browser">
+              <div class="browser-bar">
+                <div class="b-dots"><span></span><span></span><span></span></div>
+                <div class="b-url">http://localhost:5173</div>
+              </div>
+              <div class="browser-body">
+                <h1>Maria da Silva</h1>
+                <p>Curso: Análise e Desenvolvimento de Sistemas</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -1241,6 +1274,45 @@ npm run dev</pre>
 }
 
 <span class="kw">export default</span> <span class="cmp">BotaoAlerta</span></pre>
+            </div>
+            <div class="warning" style="margin-top:14px">
+              <span class="warning-icon">📌</span>
+              <div class="warning-content">
+                <strong>Não esqueça!</strong> Pra ver o componente na tela, importe e use no <code>App.jsx</code> (ou no componente pai que você está rodando):
+                <div class="code-block" style="margin-top:10px">
+                  <div class="code-header">
+                    <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="filename">src/App.jsx</span>
+                    <span class="lang-badge jsx">JSX</span>
+                  </div>
+<pre><span class="kw">import</span> <span class="cmp">BotaoAlerta</span> <span class="kw">from</span> <span class="st">'./components/BotaoAlerta'</span>
+
+<span class="kw">const</span> <span class="cmp">App</span> <span class="op">=</span> () <span class="op">=&gt;</span> {
+  <span class="kw">return</span> (
+    <span class="op">&lt;</span><span class="cmp">BotaoAlerta</span> <span class="op">/&gt;</span>
+  )
+}
+
+<span class="kw">export default</span> <span class="cmp">App</span></pre>
+                </div>
+              </div>
+            </div>
+            <p style="color:var(--text-dim);margin-top:14px"><strong>Resultado esperado na tela</strong> (depois de clicar no botão):</p>
+            <div class="browser">
+              <div class="browser-bar">
+                <div class="b-dots"><span></span><span></span><span></span></div>
+                <div class="b-url">http://localhost:5173</div>
+              </div>
+              <div class="browser-body">
+                <div style="background:#e7e7e7;border:1px solid #999;border-radius:6px;padding:14px 18px;margin-bottom:14px;font-family:sans-serif;max-width:340px">
+                  <strong style="display:block;margin-bottom:6px">localhost:5173 diz:</strong>
+                  Boa! Você descobriu o onClick! 🎉
+                  <div style="text-align:right;margin-top:10px">
+                    <button style="background:#0a84ff;color:#fff;border:none;padding:6px 14px;border-radius:5px;cursor:pointer">OK</button>
+                  </div>
+                </div>
+                <button>Me clique!</button>
+              </div>
             </div>
           </div>
         </div>
@@ -1397,6 +1469,50 @@ npm run dev</pre>
 
 <span class="kw">export default</span> <span class="cmp">TrocaTexto</span></pre>
             </div>
+            <div class="warning" style="margin-top:14px">
+              <span class="warning-icon">📌</span>
+              <div class="warning-content">
+                <strong>Não esqueça!</strong> Pra ver o componente na tela, importe e use no <code>App.jsx</code> (ou no componente pai que você está rodando):
+                <div class="code-block" style="margin-top:10px">
+                  <div class="code-header">
+                    <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="filename">src/App.jsx</span>
+                    <span class="lang-badge jsx">JSX</span>
+                  </div>
+<pre><span class="kw">import</span> <span class="cmp">TrocaTexto</span> <span class="kw">from</span> <span class="st">'./components/TrocaTexto'</span>
+
+<span class="kw">const</span> <span class="cmp">App</span> <span class="op">=</span> () <span class="op">=&gt;</span> {
+  <span class="kw">return</span> (
+    <span class="op">&lt;</span><span class="cmp">TrocaTexto</span> <span class="op">/&gt;</span>
+  )
+}
+
+<span class="kw">export default</span> <span class="cmp">App</span></pre>
+                </div>
+              </div>
+            </div>
+            <p style="color:var(--text-dim);margin-top:14px"><strong>Resultado esperado na tela</strong> (antes de clicar):</p>
+            <div class="browser">
+              <div class="browser-bar">
+                <div class="b-dots"><span></span><span></span><span></span></div>
+                <div class="b-url">http://localhost:5173</div>
+              </div>
+              <div class="browser-body">
+                <h1>Olá!</h1>
+                <button>Trocar</button>
+              </div>
+            </div>
+            <p style="color:var(--text-dim);margin-top:14px">Depois de clicar no botão:</p>
+            <div class="browser">
+              <div class="browser-bar">
+                <div class="b-dots"><span></span><span></span><span></span></div>
+                <div class="b-url">http://localhost:5173</div>
+              </div>
+              <div class="browser-body">
+                <h1>Tchau!</h1>
+                <button>Trocar</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -1519,6 +1635,39 @@ npm run dev</pre>
 }
 
 <span class="kw">export default</span> <span class="cmp">LogoUniesp</span></pre>
+            </div>
+            <div class="warning" style="margin-top:14px">
+              <span class="warning-icon">📌</span>
+              <div class="warning-content">
+                <strong>Não esqueça!</strong> Pra ver o componente na tela, importe e use no <code>App.jsx</code> (ou no componente pai que você está rodando):
+                <div class="code-block" style="margin-top:10px">
+                  <div class="code-header">
+                    <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="filename">src/App.jsx</span>
+                    <span class="lang-badge jsx">JSX</span>
+                  </div>
+<pre><span class="kw">import</span> <span class="cmp">LogoUniesp</span> <span class="kw">from</span> <span class="st">'./components/LogoUniesp'</span>
+
+<span class="kw">const</span> <span class="cmp">App</span> <span class="op">=</span> () <span class="op">=&gt;</span> {
+  <span class="kw">return</span> (
+    <span class="op">&lt;</span><span class="cmp">LogoUniesp</span> <span class="op">/&gt;</span>
+  )
+}
+
+<span class="kw">export default</span> <span class="cmp">App</span></pre>
+                </div>
+              </div>
+            </div>
+            <p style="color:var(--text-dim);margin-top:14px"><strong>Resultado esperado na tela:</strong></p>
+            <div class="browser">
+              <div class="browser-bar">
+                <div class="b-dots"><span></span><span></span><span></span></div>
+                <div class="b-url">http://localhost:5173</div>
+              </div>
+              <div class="browser-body">
+                <h2>Bem-vindo à UNIESP</h2>
+                <div style="width:160px;height:90px;background:#eee;border:1px dashed #999;display:flex;align-items:center;justify-content:center;color:#666;font-family:sans-serif;font-size:0.85rem;border-radius:6px">[ uniesp.png ]</div>
+              </div>
             </div>
           </div>
         </div>
@@ -1705,6 +1854,21 @@ npm run dev</pre>
 
 <span class="kw">export default</span> <span class="cmp">App</span></pre>
             </div>
+            <p style="color:var(--text-dim);margin-top:14px"><strong>Resultado esperado na tela:</strong></p>
+            <div class="browser">
+              <div class="browser-bar">
+                <div class="b-dots"><span></span><span></span><span></span></div>
+                <div class="b-url">http://localhost:5173</div>
+              </div>
+              <div class="browser-body">
+                <h1>Meus filmes favoritos</h1>
+                <ul>
+                  <li>Titanic (1997)</li>
+                  <li>O Senhor dos Anéis (2001)</li>
+                  <li>Vingadores (2012)</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -1854,6 +2018,21 @@ npm run dev</pre>
 }
 
 <span class="kw">export default</span> <span class="cmp">App</span></pre>
+            </div>
+            <p style="color:var(--text-dim);margin-top:14px"><strong>Resultado esperado na tela:</strong></p>
+            <div class="browser">
+              <div class="browser-bar">
+                <div class="b-dots"><span></span><span></span><span></span></div>
+                <div class="b-url">http://localhost:5173</div>
+              </div>
+              <div class="browser-body">
+                <h3>Você tem 16 anos</h3>
+                <p>❌ Não pode dirigir ainda. Faltam 2 anos.</p>
+                <h3>Você tem 18 anos</h3>
+                <p>✅ Pode dirigir!</p>
+                <h3>Você tem 25 anos</h3>
+                <p>✅ Pode dirigir!</p>
+              </div>
             </div>
           </div>
         </div>
@@ -2067,6 +2246,40 @@ npm run dev</pre>
 
 <span class="kw">export default</span> <span class="cmp">CartaoDestaque</span></pre>
             </div>
+            <div class="warning" style="margin-top:14px">
+              <span class="warning-icon">📌</span>
+              <div class="warning-content">
+                <strong>Não esqueça!</strong> Pra ver o componente na tela, importe e use no <code>App.jsx</code> (ou no componente pai que você está rodando):
+                <div class="code-block" style="margin-top:10px">
+                  <div class="code-header">
+                    <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="filename">src/App.jsx</span>
+                    <span class="lang-badge jsx">JSX</span>
+                  </div>
+<pre><span class="kw">import</span> <span class="cmp">CartaoDestaque</span> <span class="kw">from</span> <span class="st">'./components/CartaoDestaque'</span>
+
+<span class="kw">const</span> <span class="cmp">App</span> <span class="op">=</span> () <span class="op">=&gt;</span> {
+  <span class="kw">return</span> (
+    <span class="op">&lt;</span><span class="cmp">CartaoDestaque</span> <span class="op">/&gt;</span>
+  )
+}
+
+<span class="kw">export default</span> <span class="cmp">App</span></pre>
+                </div>
+              </div>
+            </div>
+            <p style="color:var(--text-dim);margin-top:14px"><strong>Resultado esperado na tela:</strong></p>
+            <div class="browser">
+              <div class="browser-bar">
+                <div class="b-dots"><span></span><span></span><span></span></div>
+                <div class="b-url">http://localhost:5173</div>
+              </div>
+              <div class="browser-body">
+                <div style="background:#f7b731;color:#000;padding:20px;border-radius:12px;font-weight:bold;text-align:center;font-family:sans-serif">
+                  🌟 Você arrasou no React!
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -2214,6 +2427,39 @@ npm run dev</pre>
 }
 
 <span class="kw">export default</span> <span class="cmp">EcoTexto</span></pre>
+            </div>
+            <div class="warning" style="margin-top:14px">
+              <span class="warning-icon">📌</span>
+              <div class="warning-content">
+                <strong>Não esqueça!</strong> Pra ver o componente na tela, importe e use no <code>App.jsx</code> (ou no componente pai que você está rodando):
+                <div class="code-block" style="margin-top:10px">
+                  <div class="code-header">
+                    <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="filename">src/App.jsx</span>
+                    <span class="lang-badge jsx">JSX</span>
+                  </div>
+<pre><span class="kw">import</span> <span class="cmp">EcoTexto</span> <span class="kw">from</span> <span class="st">'./components/EcoTexto'</span>
+
+<span class="kw">const</span> <span class="cmp">App</span> <span class="op">=</span> () <span class="op">=&gt;</span> {
+  <span class="kw">return</span> (
+    <span class="op">&lt;</span><span class="cmp">EcoTexto</span> <span class="op">/&gt;</span>
+  )
+}
+
+<span class="kw">export default</span> <span class="cmp">App</span></pre>
+                </div>
+              </div>
+            </div>
+            <p style="color:var(--text-dim);margin-top:14px"><strong>Resultado esperado na tela</strong> (depois de digitar "Oi mundo"):</p>
+            <div class="browser">
+              <div class="browser-bar">
+                <div class="b-dots"><span></span><span></span><span></span></div>
+                <div class="b-url">http://localhost:5173</div>
+              </div>
+              <div class="browser-body">
+                <input type="text" value="Oi mundo" readonly style="padding:4px 8px;border:1px solid #ccc;border-radius:4px">
+                <p>Você digitou: <strong>Oi mundo</strong></p>
+              </div>
             </div>
           </div>
         </div>
@@ -2414,6 +2660,36 @@ npm install react-router-dom</pre>
 
 <span class="kw">export default</span> <span class="cmp">App</span></pre>
             </div>
+            <p style="color:var(--text-dim);margin-top:14px"><strong>Resultado esperado na tela (rota <code>/</code>):</strong></p>
+            <div class="browser">
+              <div class="browser-bar">
+                <div class="b-dots"><span></span><span></span><span></span></div>
+                <div class="b-url">http://localhost:5173/</div>
+              </div>
+              <div class="browser-body">
+                <nav style="margin-bottom:14px">
+                  <a href="#" style="color:#0a84ff;text-decoration:underline">Home</a>
+                  {' | '}
+                  <a href="#" style="color:#0a84ff;text-decoration:underline">Sobre</a>
+                </nav>
+                <h1>Bem-vindo!</h1>
+              </div>
+            </div>
+            <p style="color:var(--text-dim);margin-top:14px">Depois de clicar em "Sobre" (rota <code>/sobre</code>):</p>
+            <div class="browser">
+              <div class="browser-bar">
+                <div class="b-dots"><span></span><span></span><span></span></div>
+                <div class="b-url">http://localhost:5173/sobre</div>
+              </div>
+              <div class="browser-body">
+                <nav style="margin-bottom:14px">
+                  <a href="#" style="color:#0a84ff;text-decoration:underline">Home</a>
+                  {' | '}
+                  <a href="#" style="color:#0a84ff;text-decoration:underline">Sobre</a>
+                </nav>
+                <h1>Sobre nós</h1>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -2594,6 +2870,38 @@ npm install react-router-dom</pre>
 }
 
 <span class="kw">export default</span> <span class="cmp">DataDeAgora</span></pre>
+            </div>
+            <div class="warning" style="margin-top:14px">
+              <span class="warning-icon">📌</span>
+              <div class="warning-content">
+                <strong>Não esqueça!</strong> Pra ver o componente na tela, importe e use no <code>App.jsx</code> (ou no componente pai que você está rodando):
+                <div class="code-block" style="margin-top:10px">
+                  <div class="code-header">
+                    <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="filename">src/App.jsx</span>
+                    <span class="lang-badge jsx">JSX</span>
+                  </div>
+<pre><span class="kw">import</span> <span class="cmp">DataDeAgora</span> <span class="kw">from</span> <span class="st">'./components/DataDeAgora'</span>
+
+<span class="kw">const</span> <span class="cmp">App</span> <span class="op">=</span> () <span class="op">=&gt;</span> {
+  <span class="kw">return</span> (
+    <span class="op">&lt;</span><span class="cmp">DataDeAgora</span> <span class="op">/&gt;</span>
+  )
+}
+
+<span class="kw">export default</span> <span class="cmp">App</span></pre>
+                </div>
+              </div>
+            </div>
+            <p style="color:var(--text-dim);margin-top:14px"><strong>Resultado esperado na tela:</strong></p>
+            <div class="browser">
+              <div class="browser-bar">
+                <div class="b-dots"><span></span><span></span><span></span></div>
+                <div class="b-url">http://localhost:5173</div>
+              </div>
+              <div class="browser-body">
+                <p>Carregado em: 20/05/2026 14:30:15</p>
+              </div>
             </div>
           </div>
         </div>
@@ -3219,6 +3527,43 @@ npm install react-router-dom</pre>
 
 <span class="kw">export default</span> <span class="cmp">ListaDeFilmes</span></pre>
             </div>
+            <div class="warning" style="margin-top:14px">
+              <span class="warning-icon">📌</span>
+              <div class="warning-content">
+                <strong>Não esqueça!</strong> Pra ver o componente na tela, importe e use no <code>App.jsx</code> (ou no componente pai que você está rodando):
+                <div class="code-block" style="margin-top:10px">
+                  <div class="code-header">
+                    <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="filename">src/App.jsx</span>
+                    <span class="lang-badge jsx">JSX</span>
+                  </div>
+<pre><span class="kw">import</span> <span class="cmp">ListaDeFilmes</span> <span class="kw">from</span> <span class="st">'./components/ListaDeFilmes'</span>
+
+<span class="kw">const</span> <span class="cmp">App</span> <span class="op">=</span> () <span class="op">=&gt;</span> {
+  <span class="kw">return</span> (
+    <span class="op">&lt;</span><span class="cmp">ListaDeFilmes</span> <span class="op">/&gt;</span>
+  )
+}
+
+<span class="kw">export default</span> <span class="cmp">App</span></pre>
+                </div>
+              </div>
+            </div>
+            <p style="color:var(--text-dim);margin-top:14px"><strong>Resultado esperado na tela:</strong></p>
+            <div class="browser">
+              <div class="browser-bar">
+                <div class="b-dots"><span></span><span></span><span></span></div>
+                <div class="b-url">http://localhost:5173</div>
+              </div>
+              <div class="browser-body">
+                <h2>🎬 Filmes</h2>
+                <ul>
+                  <li>Titanic (1997)</li>
+                  <li>O Senhor dos Anéis (2001)</li>
+                  <li>Vingadores (2012)</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -3816,6 +4161,29 @@ npm run dev</pre>
             </div>
           </div>
 
+          <div class="warning" style="margin-top:14px">
+            <span class="warning-icon">📌</span>
+            <div class="warning-content">
+              <strong>Não esqueça!</strong> Pra ver o componente na tela, importe e use no <code>App.jsx</code> (ou no componente pai que você está rodando):
+              <div class="code-block" style="margin-top:10px">
+                <div class="code-header">
+                  <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                  <span class="filename">src/App.jsx</span>
+                  <span class="lang-badge jsx">JSX</span>
+                </div>
+<pre><span class="kw">import</span> <span class="cmp">CadastrarTarefa</span> <span class="kw">from</span> <span class="st">'./components/CadastrarTarefa'</span>
+
+<span class="kw">const</span> <span class="cmp">App</span> <span class="op">=</span> () <span class="op">=&gt;</span> {
+  <span class="kw">return</span> (
+    <span class="op">&lt;</span><span class="cmp">CadastrarTarefa</span> <span class="op">/&gt;</span>
+  )
+}
+
+<span class="kw">export default</span> <span class="cmp">App</span></pre>
+              </div>
+            </div>
+          </div>
+
           <p style="color:var(--text-dim);margin-top:14px">Depois de cadastrar uma tarefa, abra o
             arquivo <code>data/db.json</code> e olhe a coleção <code>tarefas</code>:</p>
 
@@ -3963,6 +4331,29 @@ npm run dev</pre>
                 <li>Caneca UNIESP - R$ 29.9 &nbsp;<button>🗑 Remover</button></li>
                 <li>Mochila Escolar - R$ 149 &nbsp;<button>🗑 Remover</button></li>
               </ul>
+            </div>
+          </div>
+
+          <div class="warning" style="margin-top:14px">
+            <span class="warning-icon">📌</span>
+            <div class="warning-content">
+              <strong>Não esqueça!</strong> Pra ver o componente na tela, importe e use no <code>App.jsx</code> (ou no componente pai que você está rodando):
+              <div class="code-block" style="margin-top:10px">
+                <div class="code-header">
+                  <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                  <span class="filename">src/App.jsx</span>
+                  <span class="lang-badge jsx">JSX</span>
+                </div>
+<pre><span class="kw">import</span> <span class="cmp">ListaProdutos</span> <span class="kw">from</span> <span class="st">'./components/ListaProdutos'</span>
+
+<span class="kw">const</span> <span class="cmp">App</span> <span class="op">=</span> () <span class="op">=&gt;</span> {
+  <span class="kw">return</span> (
+    <span class="op">&lt;</span><span class="cmp">ListaProdutos</span> <span class="op">/&gt;</span>
+  )
+}
+
+<span class="kw">export default</span> <span class="cmp">App</span></pre>
+              </div>
             </div>
           </div>
 
