@@ -884,6 +884,66 @@ pre{
     <p class="chapter-subtitle">9 tópicos, na mesma ordem das 5 aulas. Cole, leia, lembre, e bora pros desafios.</p>
   </div>
 
+  <!-- ═════════ PROJETO BASE — MINI-DESAFIOS ═════════ -->
+  <section class="step-section">
+    <div class="card" style="background:linear-gradient(135deg,rgba(189,52,254,0.06),rgba(97,218,251,0.04));border-color:rgba(189,52,254,0.20)">
+      <h3 style="color:var(--vite)">⚡ Antes de começar — crie o projeto dos mini-desafios</h3>
+      <p>Esse é o <strong>primeiro repositório</strong> (os <strong style="color:var(--accent5)">12
+        mini-desafios</strong> espalhados pelas Partes 1 e 2). Crie <strong>um único projeto Vite</strong>
+        que vai abrigar todos eles — em cada mini-desafio, você só adiciona um componente novo.</p>
+
+      <div class="code-block">
+        <div class="code-header">
+          <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+          <span class="filename">terminal · criar projeto</span>
+          <span class="lang-badge terminal">TERMINAL</span>
+        </div>
+<pre><span class="cm"># Roda o "assistente" do Vite (sem passar nome — ele vai te perguntar)</span>
+npm create vite@latest</pre>
+      </div>
+
+      <p>O Vite vai te fazer <strong>algumas perguntas</strong> no terminal. Responda assim:</p>
+
+      <div class="concept">
+        <div class="concept-title">📋 O que responder no assistente</div>
+        <p>1️⃣ <strong>Project name:</strong> digite <code>mini-desafios-react</code> (ou o nome que preferir) e dê Enter.</p>
+        <p>2️⃣ <strong>Select a framework:</strong> use as setas do teclado pra escolher <strong style="color:var(--react)">React</strong> e dê Enter.</p>
+        <p>3️⃣ <strong>Select a variant:</strong> escolha <strong>JavaScript</strong> e dê Enter. (Ignore as opções com TypeScript e SWC por enquanto.)</p>
+      </div>
+
+      <p>No final, o Vite mostra uma mensagem tipo <em>"Now run:"</em> com os 3 comandos pra entrar
+        na pasta, instalar e rodar. Se quiser, você já pode <strong>copiar e colar logo</strong> —
+        ou então digitar um por um:</p>
+
+      <div class="code-block">
+        <div class="code-header">
+          <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+          <span class="filename">terminal · depois do assistente</span>
+          <span class="lang-badge terminal">TERMINAL</span>
+        </div>
+<pre><span class="cm"># 1. Entra na pasta do projeto que acabou de ser criado</span>
+cd mini-desafios-react
+
+<span class="cm"># 2. Instala as dependências (baixa o React, o Vite, etc.)</span>
+npm install
+
+<span class="cm"># 3. Sobe o servidor de dev (abre em http://localhost:5173)</span>
+npm run dev</pre>
+      </div>
+
+      <div class="tip">
+        <span class="tip-icon">💡</span>
+        <div class="tip-content">
+          Faça <code>npm install</code> <strong>uma vez só</strong> quando criar o projeto. Depois disso,
+          pra trabalhar nos mini-desafios é só rodar <code>npm run dev</code>. Pra parar o servidor:
+          <code>Ctrl + C</code> no terminal.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-connector"><div class="line"></div></div>
+
   <!-- ═════════ 1. COMPONENTES E JSX ═════════ -->
   <section class="step-section" id="rev-componentes">
     <div class="step-header">
@@ -3193,18 +3253,39 @@ npm install react-router-dom</pre>
           <span class="filename">terminal · criar projeto</span>
           <span class="lang-badge terminal">TERMINAL</span>
         </div>
-<pre><span class="cm"># 1. Cria o projeto (escolha React + JavaScript)</span>
-npm create vite@latest desafios-react
+<pre><span class="cm"># Roda o "assistente" do Vite (sem passar nome — ele vai te perguntar)</span>
+npm create vite@latest</pre>
+      </div>
 
+      <p>O Vite vai te fazer <strong>algumas perguntas</strong> no terminal. Responda assim:</p>
+
+      <div class="concept">
+        <div class="concept-title">📋 O que responder no assistente</div>
+        <p>1️⃣ <strong>Project name:</strong> digite <code>desafios-react</code> (ou o nome que preferir) e dê Enter.</p>
+        <p>2️⃣ <strong>Select a framework:</strong> use as setas do teclado pra escolher <strong style="color:var(--react)">React</strong> e dê Enter.</p>
+        <p>3️⃣ <strong>Select a variant:</strong> escolha <strong>JavaScript</strong> e dê Enter. (Ignore as opções com TypeScript e SWC por enquanto.)</p>
+      </div>
+
+      <p>No final, o Vite mostra uma mensagem tipo <em>"Now run:"</em> com os comandos pra entrar
+        na pasta, instalar e rodar. Se quiser, já pode <strong>copiar e colar logo</strong> — ou
+        então digitar um por um (incluindo o Axios, que a gente vai usar a partir do Desafio 3):</p>
+
+      <div class="code-block">
+        <div class="code-header">
+          <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+          <span class="filename">terminal · depois do assistente</span>
+          <span class="lang-badge terminal">TERMINAL</span>
+        </div>
+<pre><span class="cm"># 1. Entra na pasta do projeto que acabou de ser criado</span>
 cd desafios-react
 
-<span class="cm"># 2. Instala as dependências básicas</span>
+<span class="cm"># 2. Instala as dependências básicas (React, Vite, etc.)</span>
 npm install
 
-<span class="cm"># 3. Instala o Axios</span>
+<span class="cm"># 3. Instala o Axios (a gente vai precisar dele nos desafios)</span>
 npm install axios
 
-<span class="cm"># 4. Sobe o servidor de dev (vai abrir em http://localhost:5173)</span>
+<span class="cm"># 4. Sobe o servidor de dev (abre em http://localhost:5173)</span>
 npm run dev</pre>
       </div>
 
